@@ -310,7 +310,7 @@ class ExpansionTileCardState extends State<ExpansionTileCard>
                         turns: widget.trailing == null || widget.animateTrailing
                             ? _iconTurns
                             : AlwaysStoppedAnimation(0),
-                        child: widget.trailing ?? Row(children: [ Text('See more'), Icon(Icons.expand_more),],),
+                        child: widget.trailing ?? Icon(Icons.expand_more),
                       ),
                     ),
                   ),
